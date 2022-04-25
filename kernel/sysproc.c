@@ -116,3 +116,10 @@ sys_pausesystem(void)
   pause_system(seconds);
   return 0;
 }
+
+uint64
+sys_print_stats(void)
+{
+  print_stats();
+  return 0;
+}

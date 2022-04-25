@@ -22,3 +22,4 @@
 #define SYS_close  21
 #define SYS_pausesystem 22
 #define SYS_killsystem 23
+#define SYS_print_stats 24
